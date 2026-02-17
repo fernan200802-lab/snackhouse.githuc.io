@@ -1,0 +1,875 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: rgb(255, 153, 0);
+}
+
+
+header {
+    margin: 25px;
+    border-radius: 5px;
+    position: relative;
+}
+header{
+    position: sticky;
+    width: 210vh;
+    top: 0;
+    z-index: 1000;
+}
+
+/*al pasar el puntero por encima*/
+.menu a:hover {
+    background-color: rgb(228, 140, 9);
+    color:  rgb(65, 66, 138);
+    
+}
+
+.snackhouse:hover {
+    color:  rgb(65, 66, 138);
+    background-color:rgb(228, 140, 9);
+    border-radius: 50px;
+}
+
+.menu {
+    font-family: fantasy;
+    list-style-type: none; /*Quitar el punto de los en laces de naveagcion*/
+    display: flex;/*Poner un elemento al lado de otro*/
+    margin-top: 50px;
+    position: absolute;
+    bottom: 30px;
+    left: 300px;
+}
+
+
+.menu li a {
+    font-size: 15px;
+    color: rgb(247, 250, 252);
+    padding: 10px 25px 10px 25px;
+    margin: 0px 30px 0px 15px;
+    text-decoration-line: none; /*Para quitar el subrayado de los enlaces*/
+    background-color: rgb(129, 73, 157);
+    border-radius: 6px 6px 6px 6px;
+    position: relative;
+    bottom: -12px;
+}
+.navbar {
+    height: 90px;
+    border-radius: 7px;
+    position: relative;
+}
+
+
+/*Para el logo*/
+div a {
+    padding: 10px;
+    margin: 5px;
+    font-family: fantasy;
+    text-decoration-line: none;
+    color: orange;
+    position: relative;
+    top: -70px;    
+    left: 10px;
+}
+.logo {
+    position: relative;
+    top:1px;   
+}
+
+/*Para dar forma a la imagen del logo*/
+div img {
+    border-radius: 35px;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: -1px;
+}
+
+.titulo {
+    color:  rgb(65, 66, 138);
+    font-size: 100px;
+    font-family: fantasy;
+    text-align: center;
+}
+
+video {
+    width: 1000px;
+}
+
+video:hover {
+    transform: scale(0.9);
+
+}
+
+.baner video {
+    position: relative;
+    width: 95%;
+    left:30px;
+    border-radius: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.frase-emblema {
+    color: rgb(0, 0, 255);
+    font-style: italic;
+    font-size: 30px;
+    text-align: center; 
+    position: absolute;
+    bottom: -300px;
+    left: 200px;
+}
+.btn-warning {
+    margin-top: 13px;
+} 
+
+
+.minidona {
+    font-family: fantasy;
+}
+
+
+.productos article {
+    background-color: rgb(65, 66, 138);
+    margin: 50px;
+    display: inline-block;
+    /*position: relative;*/
+    /*left: 45px;*/
+    /*animation: card 2s ease-in infinite;*/
+    /*animation: name duration timing-function delay iteration-count direction fill-mode;*/
+}
+
+.productos article:hover {
+    animation: card 1s ease-in infinite;
+}
+
+@keyframes card {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.frase-emblema2 {
+    color: rgb(65, 66, 138);
+    font-style: italic;
+    font-size: 22px;
+    position: absolute;
+    margin-left:40px ;
+    top: 700px; 
+}
+.frase-emblema3 {
+    color: rgb(65, 66, 138);
+    font-style: italic;
+    font-size: 20px;
+    position: absolute; 
+}
+.frase-emblema4 {
+    color: rgb(65, 66, 138);
+    font-style: italic;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 57px;
+}
+
+.pro-card1 {
+    height:330px;
+    width: 200px;
+    border-radius: 10px ;
+    position: relative;
+    top: 0;
+    left: 300px;
+
+}
+.pro-card2 {
+    height:330px;
+    width: 200px;
+    position: relative;
+    border-radius: 10px ;
+    top: 350px;
+    left: 200px;
+}
+
+.pro-card3 {
+    height:330px;
+    width: 200px;
+    position: relative;
+    border-radius: 10px ;
+    left: 100px;
+}
+
+.pro-card4 {
+    height:330px;
+    width: 200px;
+    position: relative;
+    border-radius: 10px ;
+    top: 350px;
+    left: 0;
+}
+
+.card {
+    height:350px;
+    width: 200px;
+    position: relative;
+    margin: 20px;
+    border-radius: 12px;
+}
+
+.card3-anuales {
+    height:300px;
+    width: 200px;
+    position: relative;
+    border-radius: 10px;
+}
+
+.imagen-card {
+    position: absolute;
+    top: 50px;
+    left: 25px;
+    border-radius: 10px;
+
+}
+
+.imagen-card2{
+    position: absolute;
+    top: 50px;
+    left: 25px;
+    border-radius: 10px;
+}
+.imagen-card3{
+    border-radius: 10px;
+}
+
+
+.porcentaje {
+    background-color: rgb(220, 220, 106);
+    position: absolute;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium';
+    top: -1px;
+    right: 162px;
+}
+.boton {
+    color:black;
+    position: absolute;
+    background-color:rgb(129, 73, 157) ;
+    bottom: 20px;
+    left: 60px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.boton-promociones {
+    color:black;
+    position: absolute;
+    background-color:rgb(129, 73, 157) ;
+    bottom: 20px;
+    left: 85px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.descripcion {
+    color: orange;
+    font-family:fantasy ;
+    font-size: 20px;
+    position: relative;
+    bottom: -213px;
+    text-align: center;
+}
+
+
+
+
+
+.descripcion2 {
+    color: orange;
+    font-family:fantasy ;
+    font-size:20px;
+    position: 
+    
+    
+    
+    relative;
+    bottom: -173px;
+    text-align: center;
+}
+.precio-categoria {
+    color: white;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 14px;
+    font-style: italic;
+    position: relative;
+    top: 0;
+}
+
+.precio-categoria1 {
+    color: white;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 14px;
+    font-style: italic;
+    position: relative;
+    top: 0;
+}
+.precio-categoria2 {
+    color: white;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: -84px;
+    font-size: 14px;
+    font-style: italic;
+    position: relative;
+    top: 0;
+}
+
+
+.card2-index {
+    height: 350px;
+    width: 250px;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-left: 110px;
+    margin-bottom: 40px;    
+}
+
+
+.promociones article {
+    height: 400px;
+    background-color: rgb(65, 66, 138);
+    display: inline-block;
+    position: relative;
+}
+.promociones article:hover {
+    animation: promociones 1s ease-in infinite;
+}
+@keyframes promociones {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.subtitulo {
+    color:  rgb(65, 66, 138);
+    font-size: 50px;
+    font-family: fantasy;
+    text-align: start;
+    margin-left: 50px;
+    margin-top: 100px;
+    transition: padding 0.5s ease;
+}
+
+.subtitulo:hover {
+    padding: 10px;
+}
+.subtitulo2 {
+    color:  rgb(65, 66, 138);
+    font-size: 60px;
+    font-family: fantasy;
+    text-align: start;
+    margin-left: 50px;
+    position: absolute;
+    bottom: -150px;
+}
+
+
+.nuevos {
+    background-color:rgb(220, 220, 106) ; 
+    font-family: 'Franklin Gothic Medium';
+    font-size: 20px; 
+    position: relative;
+    top: -80px;
+}
+
+
+
+#reseña-titulo {
+    color:  rgb(65, 66, 138);
+    font-size: 60px;
+    font-family: fantasy;
+    text-align: start;
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+
+.texto-reseña {
+    background-color:rgb(129, 73, 157);
+    color: white;
+    font-style:italic;
+    padding: 25px;
+    font-size: 20px;
+    margin-left: 550px;
+    margin-right: 150px;
+    margin-top: 30px;
+    position: relative;
+}
+
+.texto-reseña {
+    position: absolute;
+    top: 210px;
+}
+
+.imagen-reseña {
+    margin-left: 50px;
+    
+}
+
+.subtitulo-reseña {
+    color:rgb(129, 73, 157);
+    font-style: italic;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.subtitulo3 {
+    color: rgb(129, 73, 157);
+    font-family:fantasy;
+    margin-left: 100px;
+}
+.descripcion3 {
+    color:rgb(27, 27, 145);
+    font-style: italic;
+    font-size: 30px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+    
+}
+.secciones  {
+    padding: 20px;
+    margin: 50px;
+    position: relative;
+    bottom: -160px;
+}
+.secciones2  {
+    color: white;
+    margin: 0px;
+    text-decoration: none;
+    font-family: fantasy;
+    padding: 15px;
+}
+.secciones2:hover {
+    color: orange;  
+}
+
+.iconos  {
+    display: inline-block;
+    width: 200px;
+    color: white;
+    position: relative;
+    left: 100px;
+    font-size: 18px;
+}
+
+.politic {
+    text-decoration: none;
+}
+
+.iconos2 {
+    display: inline-block;
+    position: relative;
+    left: 100px;
+}
+
+a {
+    color: rgb(247, 247, 247);
+}
+
+.snack-pie {
+    border-radius: 5px;
+    position: relative;
+    right: 100px;
+}
+
+h4 {
+    padding: 10px;
+    margin: 10px;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+    position: relative;
+    
+}
+
+.iconos a {
+    color: white;
+}
+.pie-pagina {
+    background-color: rgb(65, 66, 138);
+    margin-top: 200px;
+    margin-right:0 ;
+    width: 1225px;
+    position: relative;
+    right: 56px;
+    left: 0px;
+    bottom: -43px;
+}
+
+.pie-pagina2 {
+    background-color: rgb(65, 66, 138);
+    margin-top: 200px;
+    margin-right:0 ;
+    width: 1225px;
+    position: relative;
+    right: 56px;
+    left: -57px;
+    bottom: -43px;
+}
+
+
+
+
+
+footer {
+    position: relative;
+
+    
+}
+
+
+form {
+    font-style: italic;
+    color:rgb(89, 44, 112);
+    position: relative;
+    bottom: 0;
+    top: 0;
+    left: 0px;
+}
+.formulario-productos {
+    color: rgb(65, 66, 138);
+    font-style: italic;
+    font-size: 30px;
+    position: relative;
+    top: 400px;
+    right: 50px;
+    margin-bottom: 500px;
+    display: inline-block;
+}
+
+.archivo1 {
+    color:black;
+    background-color:rgb(129, 73, 157);
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+
+.archivo2 {
+    color:black;
+    background-color:rgb(129, 73, 157);
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+    top: 3px;
+}
+
+.archivo3 {
+    color:black;
+    background-color:rgb(129, 73, 157);
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+    left: 73px;
+    bottom: 39px;
+}
+
+.recomendaciones {
+    color:rgb(73, 34, 93);
+    position: relative;
+    right: 20px;
+}
+
+
+.contacto {
+    text-align: center;
+    color: rgb(73, 34, 93);
+}
+.sobre {
+    border-radius: 0px;
+    margin: 10px;
+    margin-bottom: 10px;
+    margin-left: 150px;
+    
+}
+
+
+
+
+
+
+@media  (max-width:576px) {
+    header {
+        margin:0;
+        padding: 27px;
+        position: sticky;
+        z-index: 1000;
+    }
+    .snack {
+        font-size: 20px;
+    }
+    .menu {
+        display: flex;
+        position: absolute;
+        bottom: 20px;
+        left: 143px
+    }
+    .menu li a {
+        font-size: 10px;
+        padding: 4px;
+        margin-left: -17px;
+        top: -2px;
+    }
+
+    div a {
+        top: -195px;
+        left: -3px
+    }
+
+    header {
+        position: sticky;
+        width: 102vh;
+        top: 0;
+        z-index: 1000;
+    }
+
+    .baner video {
+        position: relative;
+        width: 95%;
+        left:16px;
+    }
+
+    .frase-emblema {
+        color: rgb(65, 66, 138);
+        font-size: 24px;
+        top: 506px;
+        left: 3px;
+    }
+
+    .titulo {
+        color:  rgb(65, 66, 138);
+        font-size: 70px;
+        position: relative;
+        bottom: -20px;
+    }
+
+    .card {
+        display: inline-block;
+        flex-direction: column-reverse;
+    }
+    .productos article {
+        margin: 42px;
+        left: 23px;
+        
+    }
+    .card2-index {
+        left: 55px;
+    } 
+    h4 {
+        padding: 1px;
+        margin: 3px;
+        font-style: italic;
+    }
+    .iconos2 {
+        left: 10px;
+    }
+    .subtitulo2 {
+        position: absolute;
+        bottom: 213px
+    }
+    .frase-emblema2 {
+        position: absolute;
+        margin-left: 40px;
+        top: 318px
+    }
+    .pro-card1 {
+        left: -9px;
+        top: 198px;
+    }
+    .pro-card2 {
+        top: 200px;
+        left: 4px
+    }
+    .pro-card3 {
+        left: -9px;
+        top: 170px
+    }
+    .pro-card4 {
+        top: 171px;
+    }
+    .formulario-productos {
+        font-size: 20px;
+        position: relative;
+        top: 300px;
+        right: 50px;
+    }
+    .archivo3 {
+        bottom: 35px;
+    }
+
+    .imagen-reseña {
+        width: 290px;
+        height: 400px;
+        margin-left: 12px;
+    }
+    .texto-reseña {
+        left: -234px;
+        width: 235px;
+        font-size: 10px;
+        bottom: -209px;
+        position: relative;
+        top: -434px;
+    }
+    .boton {
+        bottom: 16px;
+        left: 55px;
+    }
+    .boton-promociones {
+        bottom: 17px;
+        left: 80px;
+    }
+    .subtitulo-reseña {
+        margin-top: -295px;
+    }
+    .secciones2 {
+        position: relative;
+        top: 20px;
+        margin: 0;    
+    }
+}
+
+
+@media (max-width: 320px) {
+    .menu {
+        display: flex;
+        flex-direction: column;
+    }
+    .menu li a {
+        left: -72px;
+        right: -46px;
+        top: 11px;
+        margin-bottom: 82px;
+        margin: -80px;
+        font-size: 10px;
+        
+    }
+    .bg-dark {
+        width: 250px;
+        height: 200px;
+    } 
+    .logo {
+        top: -70px;
+        left: 5px;
+    }
+    .frase-emblema {
+        font-size: 20px;
+        top: 702px;
+    }
+    .baner video {
+        border-radius: 15px;
+        left: 7px;
+    }
+    .subtitulo {
+        position: relative;
+        left: -24px;
+    }
+    .promociones article {
+        left: -72px;
+    }
+    .descripcion3 {
+        position: relative;
+        left: -55px;
+    }
+    .secciones2  {
+    color: white;
+    margin: 0px;
+    text-decoration: none;
+    font-family: fantasy;
+    padding: 1px;
+    }
+    .pie-pagina2 {
+    background-color: rgb(65, 66, 138);
+    margin-top: 200px;
+    margin-right: 0;
+    width: 400px;
+    position: relative;
+    right: 56px;
+    left: -12px;
+    bottom: -43px;
+    display: flex;
+    flex-direction: column;
+    }
+    .frase-emblema2 {
+        position: relative;
+        top: 0;
+        bottom: 0;
+    }
+
+
+
+    .subtitulo2 {
+        position: relative;
+        top: 9px;
+        right:29px ;
+    }
+    .pie-pagina {
+    background-color: rgb(65, 66, 138);
+    margin-top: 200px;
+    margin-right: 0;
+    width: 400px;
+    position: relative;
+    right: -12px;
+    left: 0px;
+    bottom: -43px;
+    display: flex;
+    flex-direction: column;
+    }
+    .div a {
+        top: 100px;
+    }
+    .contac img {
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
